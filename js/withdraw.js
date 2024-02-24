@@ -15,5 +15,8 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
   const withdrawTotalBalanceString = withdrawTotalBalance.innerText;
   const newWithdrawBalance = parseFloat(withdrawTotalBalanceString);
 
+  const totalBalanceWithdraw = newWithdrawBalance - newWithdrawTotal;
+  withdrawTotalBalance.innerText = totalBalanceWithdraw;
 
+  withdrawElement.value = "";
 });
