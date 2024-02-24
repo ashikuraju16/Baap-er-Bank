@@ -7,7 +7,7 @@ document.getElementById('submit-btn').addEventListener('click', function(){
 
     // console.log(inputEmail,inputPassword);
   
-if (email === 'Bangladesh@11.com' && password === 'Secret@1971.com') {
+if (email === 'Bangladesh@1971.com' && password === 'Secret@1971.com') {
     window.location.href = 'bank.html';
 }
 else{
