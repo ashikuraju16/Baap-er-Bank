@@ -7,10 +7,10 @@ document.getElementById('submit-btn').addEventListener('click', function(){
 
     // console.log(inputEmail,inputPassword);
   
-if (email === 'bangladesh@11.com' && password === 'secret') {
+if (email === 'Bangladesh@11.com' && password === 'Secret@1971.com') {
     window.location.href = 'bank.html';
 }
 else{
-    alert('you forget your password loooooooooooooooooooooolllllllllllllllllllllllllll');
+    alert('you forget your password looooolllllllllllllllll');
 }
 })
