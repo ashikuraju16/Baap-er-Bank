@@ -9,5 +9,7 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
 
   const totalWithdraw = newWithdrawTotal + newWithdrawTotalBalance;
 
-  
+  withdrawTotal.innerText = totalWithdraw;
+
+
 });
