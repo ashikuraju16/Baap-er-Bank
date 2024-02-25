@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title> Bank</title>
-    
-    
+
+    <title>Bank</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header>
-      <div class="text-6xl text-center my-10 font-bold max-sm:text-3xl   ">
+      <div class="text-6xl text-center my-10 font-bold max-sm:text-3xl">
         Give Me Some
         <span class="text-green-800 font-extrabold text-8xl max-sm:text-5xl"
           >Moneeeeeeey <span class="text-red-700">!!!!</span>
@@ -20,8 +19,9 @@
     </header>
 
     <section class="mt-10">
-      <div class="grid grid-cols-3 gap-4 w-5/6 mx-auto text-white max-sm:grid-cols-1 max-sm:w-[95%] max-lg:grid-cols-1 max-xl:w-full max-xl:px-4">
-
+      <div
+        class="grid grid-cols-3 gap-4 w-5/6 mx-auto text-white max-sm:grid-cols-1 max-sm:w-[95%] max-lg:grid-cols-1 max-xl:w-full max-xl:px-4"
+      >
         <!-- ----------------------------------------------------------------------- -->
         <!--                                 deposit                                 -->
         <!-- ----------------------------------------------------------------------- -->
@@ -34,7 +34,7 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                                withdraw                                 -->
         <!-- ----------------------------------------------------------------------- -->
-        <div class="rounded-lg p-8 bg-sky-600 ">
+        <div class="rounded-lg p-8 bg-sky-600">
           <h2 class="text-4xl">Withdraw</h2>
           <h3 class="text-7xl font-extrabold max-sm:text-6xl">
             $<span id="withdraw-total">00</span>
@@ -47,20 +47,26 @@
         <div class="rounded-lg p-8 bg-lime-600">
           <h2 class="text-4xl">Balance</h2>
           <h3 class="text-7xl font-extrabold max-sm:text-6xl">
-            $<span id="balance-total" >2500</span>
+            $<span id="balance-total">2500</span>
           </h3>
         </div>
       </div>
     </section>
-<!-- ----------------------------------------------------------------------- -->
-<!--                             deposit details                             -->
-<!-- ----------------------------------------------------------------------- -->
-    <section class="my-14 w-5/6 mx-auto max-sm:w-11/12 max-xl:w-full max-xl:px-4 ">
-      <div class="grid grid-cols-2 gap-x-6 max-sm:grid-cols-1 max-sm:gap-y-4 max-lg:grid-cols-1 max-lg:gap-y-8">
-        <div class="bg-yellow-500 p-8 rounded-lg max-sm:px-3 ">
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             deposit details                             -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section
+      class="my-14 w-5/6 mx-auto max-sm:w-11/12 max-xl:w-full max-xl:px-4"
+    >
+      <div
+        class="grid grid-cols-2 gap-x-6 max-sm:grid-cols-1 max-sm:gap-y-4 max-lg:grid-cols-1 max-lg:gap-y-8"
+      >
+        <div class="bg-yellow-500 p-8 rounded-lg max-sm:px-3">
           <h2 class="text-5xl mb-6 text-white max-sm:text-4xl">Your Deposit</h2>
-          <input id="deposit-field" class="w-3/4 px-4 py-3 rounded block max-sm:w-full max-sm:text-base max-lg:w-full max-lg:text-2xl max-xl:w-full
-          type="number" placeholder="$ Amount You Want to Deposit">
+          <input id="deposit-field" class="w-3/4 px-4 py-3 rounded block
+          max-sm:w-full max-sm:text-base max-lg:w-full max-lg:text-2xl
+          max-xl:w-full type="number" placeholder="$ Amount You Want to
+          Deposit">
           <br />
           <button
             id="deposit-btn"
@@ -75,13 +81,17 @@
         <!--                            withdraw details                             -->
         <!-- ----------------------------------------------------------------------- -->
         <div class="bg-violet-700 p-8 rounded-lg max-sm:px-3">
-          <h2 class="text-5xl mb-6 text-white max-sm:text-4xl">Your Withdraw</h2>
-          <input id="withdraw-field" class="w-3/4 px-4 py-3 rounded block max-sm:w-full max-lg:w-full max-lg:text-2xl max-xl:w-full max-sm:text-base
-          type="number" placeholder="$ Amount You Want to Withdraw">
+          <h2 class="text-5xl mb-6 text-white max-sm:text-4xl">
+            Your Withdraw
+          </h2>
+          <input id="withdraw-field" class="w-3/4 px-4 py-3 rounded block
+          max-sm:w-full max-lg:w-full max-lg:text-2xl max-xl:w-full
+          max-sm:text-base type="number" placeholder="$ Amount You Want to
+          Withdraw">
           <br />
           <button
             id="withdraw-btn"
-            class="mt-4 px-8 py-4 rounded-lg bg-sky-600 text-white font-bold hover:bg-red-700  max-sm:px-20 max-sm:mx-6 max-xl:px-12 "
+            class="mt-4 px-8 py-4 rounded-lg bg-sky-600 text-white font-bold hover:bg-red-700 max-sm:px-20 max-sm:mx-6 max-xl:px-12"
             type="submit"
           >
             Withdraw
